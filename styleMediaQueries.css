@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+
+@media (max-width: 769px) and (max-width: 1140px) {
+    body{
+       padding-left: 30px;
+       padding-right: 30px;
+    }   
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+    body{
+        padding-left: 0px;
+        padding-right: 0px;
+    }   
+    .banner{
+        padding-left: 10px;
+    }
+    
+    .area1{
+        grid-template-columns: 3fr 2fr;
+    }
+    .area2{
+        grid-template-columns: 3fr 2fr;
+    }
+    .area3{
+        grid-template-columns: 3fr 2fr;
+    }
+}
+
+@media (max-width: 449px) {
+    body{
+        padding-left: 0px;
+        padding-right: 0px;
+    }   
+    .area1{
+        grid-template-columns: 3fr 2fr;
+    }
+    .area2{
+        grid-template-columns: 3fr 2fr;
+    }
+    .area3{
+        grid-template-columns: 3fr 2fr;
+    }
+    .header--search input{
+        max-width: 80px;
+    }
+    .header--menu{
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    .header--menu img{
+        width: 24px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .header--left img{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .banner{
+        padding-left: 10px;
+    }
+    
+    .container-banner h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .banner-images img{
+        width: 70px;
+        height: 70px;
+        border: 3px solid #117050;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+
+    .area1,  .area2, .area3, .area4{
+        grid-template-columns: 1fr;
+    }
+    .area1--content, .area2--content, .area3--content, .area4--content{
+        padding: 40px;
+    }
+    .area1--img1{
+        height: 210px;
+        background-image: url(./images/f2.jpg);
+        background-size: contain;
+        
+    }
+    .area5--img1{
+        height: 200px;
+    }
+    footer p{
+        text-align: center;
+        color: white;
+        padding: 50px 0px;
+    }
+
+    h2{
+    line-height: 40px;
+}
+}
+
