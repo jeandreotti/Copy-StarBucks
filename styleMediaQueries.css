@@ -86,6 +86,7 @@
         height: 210px;
         background-image: url(./images/f2.jpg);
         background-size: contain;
+        background-repeat: no-repeat;
         
     }
     .area5--img1{
